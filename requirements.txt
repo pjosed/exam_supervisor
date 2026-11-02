@@ -1,0 +1,10 @@
+opencv-python==4.9.0.80
+ultralytics==8.1.0
+mediapipe==0.10.9
+fastapi==0.110.0
+uvicorn==0.29.0
+streamlit==1.33.0
+sqlalchemy==2.0.29
+psycopg2-binary==2.9.9
+pyyaml==6.0.1
+numpy==1.26.4

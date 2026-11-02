@@ -1,0 +1,25 @@
+camera:
+  source: 0
+  width: 640
+  height: 480
+  fps: 30
+
+detection:
+  model: yolov8n.pt
+  confidence: 0.5
+  classes: [0]  # 0 = persona en COCO
+
+risk:
+  thresholds:
+    green: 0
+    yellow: 30
+    red: 60
+  head_down_seconds: 3
+  lateral_look_count: 3
+  lateral_look_window_seconds: 10
+
+database:
+  host: localhost
+  port: 5432
+  name: exam_supervisor
+  user: postgres
